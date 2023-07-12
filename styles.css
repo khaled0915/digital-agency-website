@@ -23,3 +23,42 @@
     font-size: 16px;
     font-style: italic;
 }
+.banner-container{
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
+
+    /* background blend mode use so that linear gradient works */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+
+    height: 100vh ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.primary{
+    color: red;
+}
+.title{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.description{
+    color: white;
+    padding: 10px;
+    /* it will go in center */
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.bg-primary{
+    color: white;
+    background-color: red;
+}
