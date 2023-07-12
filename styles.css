@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+/* here ul is the parent of li */
+
+/* .menus ul{
+    display: flex;
+
+} */
+/* here menus is the parent of li */
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    font-style: italic;
+}
